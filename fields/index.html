@@ -2,27 +2,60 @@
 <html>
 <head>
   <meta charset="utf-8">
-  <title>Fields</title>
-  <link rel="stylesheet" href="/style.css">
+  <title>Fields — Arcstone Registry</title>
+  <link rel="stylesheet" href="../style.css">
 </head>
 
 <body>
 
+<div id="header"></div>
+
+<div class="container">
+
 <h1>Fields</h1>
 
+<p class="muted">
+Canonical scientific field registry.
+</p>
+
 <ul>
-  <li><a href="authorization-science.md">Authorization Science</a></li>
-  <li><a href="continuity-science.md">Continuity Science</a></li>
-  <li><a href="authorization-centric-substrate-science.md">
-    Authorization-Centric Substrate Science
-  </a></li>
-  <li><a href="constitutional-mathematics.md">Constitutional Mathematics</a></li>
-  <li><a href="biological-constitutional-systems.md">
-    Biological Constitutional Systems
-  </a></li>
+  <li>
+    <strong>Authorization Science</strong><br>
+    Study of admissibility, permission, and action-legality under irreversible risk.
+  </li>
+
+  <li>
+    <strong>Continuity Science</strong><br>
+    Study of survival, persistence, and existence-stability of systems.
+  </li>
+
+  <li>
+    <strong>Authorization-Centric Substrate Science (ACSS)</strong><br>
+    Mathematical–physical foundations for permissioned existence.
+  </li>
+
+  <li>
+    <strong>Constitutional Mathematics</strong><br>
+    Mathematics of lawful state, constraint, and proof-governed transition.
+  </li>
+
+  <li>
+    <strong>Biological Constitutional Systems</strong><br>
+    Constitutional governance of biological states and actions.
+  </li>
 </ul>
 
-<p><a href="/">← Back to registry</a></p>
+<footer>
+  Arcstone Science Authority Registry
+</footer>
+
+</div>
+
+<script>
+fetch("../header.html")
+  .then(r => r.text())
+  .then(t => document.getElementById("header").innerHTML = t);
+</script>
 
 </body>
 </html>
