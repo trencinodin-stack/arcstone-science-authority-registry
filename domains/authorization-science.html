@@ -1,18 +1,64 @@
-# Authorization Science — Domains
+<!doctype html>
+<html>
+<head>
+  <meta charset="utf-8">
+  <title>Authorization Science — Domains</title>
+  <link rel="stylesheet" href="/style.css">
+</head>
 
+<body>
+
+<!-- Shared Header -->
+<div id="header"></div>
+<script>
+fetch("/header.html")
+  .then(r => r.text())
+  .then(t => document.getElementById("header").innerHTML = t);
+</script>
+
+<!-- Breadcrumbs -->
+<div class="breadcrumbs">
+  <a href="/">Registry</a> /
+  <a href="/domains/">Domains</a> /
+  Authorization Science
+</div>
+
+<hr class="divider">
+
+<h1>Authorization Science — Domains</h1>
+
+<p>
 This document enumerates primary domains within the field of Authorization Science.
+</p>
 
-## Admissibility Theory
+<h2>Admissibility Theory</h2>
+<p>
 Study of conditions under which actions enter the admissible set.
+</p>
 
-## Revocation Semantics
+<h2>Revocation Semantics</h2>
+<p>
 Study of how permission is withdrawn over time.
+</p>
 
-## Fail-Closed Systems
+<h2>Fail-Closed Systems</h2>
+<p>
 Study of systems whose default state under uncertainty is non-action.
+</p>
 
-## Permission Geometry
+<h2>Permission Geometry</h2>
+<p>
 Study of structural relationships between permitted and forbidden state spaces.
+</p>
 
-## Certificate-Based Legitimacy
+<h2>Certificate-Based Legitimacy</h2>
+<p>
 Study of proof-carrying permission artifacts.
+</p>
+
+<div class="footer">
+Arcstone Adaptive Science Systems, Inc.
+</div>
+
+</body>
+</html>
