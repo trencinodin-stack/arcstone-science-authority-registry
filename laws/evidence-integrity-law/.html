@@ -1,25 +1,46 @@
+<!doctype html>
+<html>
+<head>
+  <meta charset="utf-8">
+  <title>Evidence Integrity Law — Arcstone Registry</title>
+  <link rel="stylesheet" href="../../style.css">
+</head>
+
+<body>
+
+<div id="header"></div>
+
+<div class="container">
+
 <h1>Evidence Integrity Law</h1>
 
 <p class="muted">
-Law · LAW-EIL-001
+Law
 </p>
 
 <p>
 Only verifiable, auditable evidence may justify authorization.
 </p>
 
-<p>
-Scope: Global
-</p>
-
 <h2>Statement</h2>
 
 <p>
-Claims lacking auditable evidence are inadmissible.
+Claims, permissions, and actions must be supported by evidence that is
+verifiable, auditable, and traceable. Unverifiable claims cannot
+authorize action.
 </p>
 
-<h2>Notes</h2>
+<footer>
+  Arcstone Science Authority Registry
+</footer>
 
-<p>
-Assertions are not evidence.
-</p>
+</div>
+
+<script>
+fetch("../../header.html")
+  .then(r => r.text())
+  .then(t => document.getElementById("header").innerHTML = t);
+</script>
+
+</body>
+</html>
