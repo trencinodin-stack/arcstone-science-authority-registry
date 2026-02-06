@@ -1,7 +1,73 @@
+<!doctype html>
+<html>
+<head>
+  <meta charset="utf-8">
+  <title>Mathematical Primitives — Arcstone Registry</title>
+  <link rel="stylesheet" href="../style.css">
+</head>
+
+<body>
+
+<div id="header"></div>
+
+<div class="container">
+
 <h1>Mathematical Primitives</h1>
 
+<p class="muted">
+Canonical primitive mathematical objects.
+</p>
+
 <ul>
-  <li><a href="authorization-spine-inequality.md">Authorization Spine Inequality</a></li>
+
+  <li>
+    <strong>Constraint</strong><br>
+    A restriction defining allowed states or transitions.
+  </li>
+
+  <li>
+    <strong>Admissibility</strong><br>
+    Predicate determining whether an object or action is allowed.
+  </li>
+
+  <li>
+    <strong>Transition</strong><br>
+    Mapping from one state to another.
+  </li>
+
+  <li>
+    <strong>State</strong><br>
+    A complete description of a system at an instant.
+  </li>
+
+  <li>
+    <strong>Proof Object</strong><br>
+    Typed artifact certifying a claim.
+  </li>
+
+  <li>
+    <strong>Judgment Lattice</strong><br>
+    Partially ordered set of decision outcomes.
+  </li>
+
+  <li>
+    <strong>Certificate</strong><br>
+    Signed proof object granting permission.
+  </li>
+
 </ul>
 
-<a href="/">Back to registry</a>
+<footer>
+  Arcstone Science Authority Registry
+</footer>
+
+</div>
+
+<script>
+fetch("../header.html")
+  .then(r => r.text())
+  .then(t => document.getElementById("header").innerHTML = t);
+</script>
+
+</body>
+</html>
