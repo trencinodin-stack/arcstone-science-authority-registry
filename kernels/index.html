@@ -1,7 +1,68 @@
+<!doctype html>
+<html>
+<head>
+  <meta charset="utf-8">
+  <title>Kernels — Arcstone Registry</title>
+  <link rel="stylesheet" href="../style.css">
+</head>
+
+<body>
+
+<div id="header"></div>
+
+<div class="container">
+
 <h1>Kernels</h1>
 
+<p class="muted">
+Canonical executable kernel registry.
+</p>
+
 <ul>
-  <li><a href="cgsv1.md">CGSV1 Kernel</a></li>
+
+  <li>
+    <strong>Typed Existence-Admission Kernel</strong><br>
+    Determines whether existence, state, or action is legally admissible.
+  </li>
+
+  <li>
+    <strong>CGSV1 Kernel</strong><br>
+    Evaluates governance state validity and safety posture.
+  </li>
+
+  <li>
+    <strong>CATV1 Kernel</strong><br>
+    Enforces authorization law at runtime.
+  </li>
+
+  <li>
+    <strong>Legitimacy Kernel</strong><br>
+    Determines legitimacy of claims, proofs, and authority.
+  </li>
+
+  <li>
+    <strong>Pandora / PSP Kernel</strong><br>
+    Enforces absolute freeze under existential hazard.
+  </li>
+
+  <li>
+    <strong>Interpretability Sovereignty Kernel</strong><br>
+    Enforces interpretability as a non-bypassable constraint.
+  </li>
+
 </ul>
 
-<a href="/">Back to registry</a>
+<footer>
+  Arcstone Science Authority Registry
+</footer>
+
+</div>
+
+<script>
+fetch("../header.html")
+  .then(r => r.text())
+  .then(t => document.getElementById("header").innerHTML = t);
+</script>
+
+</body>
+</html>
