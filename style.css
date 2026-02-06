@@ -1,4 +1,9 @@
-/* Base reset */
+/* ============================================
+   Arcstone Registry — Minimal System Style
+============================================ */
+
+/* -------- Base Reset -------- */
+
 * {
   box-sizing: border-box;
 }
@@ -13,7 +18,59 @@ body {
   line-height: 1.55;
 }
 
-/* Headings */
+/* -------- Layout Rhythm -------- */
+
+section {
+  margin-top: 48px;
+}
+
+hr {
+  border: none;
+  border-top: 1px solid #e2e8f0;
+  margin: 32px 0;
+}
+
+/* -------- Top Navigation -------- */
+
+.nav {
+  display: flex;
+  gap: 28px;
+  font-size: 15px;
+  margin-bottom: 32px;
+}
+
+.nav a {
+  color: #0f172a;
+  font-weight: 500;
+}
+
+.nav a:hover {
+  color: #2563eb;
+  text-decoration: none;
+}
+
+/* -------- Breadcrumbs -------- */
+
+.breadcrumbs {
+  font-size: 14px;
+  color: #64748b;
+  margin-bottom: 24px;
+}
+
+.breadcrumbs a {
+  color: #64748b;
+}
+
+.breadcrumbs a:hover {
+  color: #2563eb;
+}
+
+.breadcrumbs span {
+  margin: 0 6px;
+}
+
+/* -------- Headings -------- */
+
 h1 {
   font-size: 48px;
   font-weight: 600;
@@ -24,27 +81,39 @@ h2 {
   font-size: 24px;
   margin-top: 48px;
   margin-bottom: 12px;
+  font-weight: 600;
 }
 
-/* Paragraphs */
+h3 {
+  font-size: 18px;
+  margin-top: 32px;
+  margin-bottom: 8px;
+  font-weight: 600;
+}
+
+/* -------- Text -------- */
+
 p {
   max-width: 720px;
   font-size: 18px;
   color: #334155;
 }
 
-/* Lists */
+/* -------- Lists -------- */
+
 ul {
   list-style: none;
   padding-left: 0;
+  margin-top: 16px;
 }
 
 li {
-  margin: 8px 0;
+  margin: 10px 0;
   font-size: 18px;
 }
 
-/* Links */
+/* -------- Links -------- */
+
 a {
   color: #2563eb;
   text-decoration: none;
@@ -54,7 +123,44 @@ a:hover {
   text-decoration: underline;
 }
 
-/* Small footer text */
+/* -------- Equation / Code Blocks -------- */
+
+.codeblock {
+  background: #f1f5f9;
+  border: 1px solid #e2e8f0;
+  border-radius: 6px;
+  padding: 16px 18px;
+  margin: 24px 0;
+  font-family: ui-monospace, SFMono-Regular,
+               Menlo, Monaco, Consolas,
+               "Liberation Mono", monospace;
+  font-size: 15px;
+  line-height: 1.6;
+  color: #0f172a;
+  overflow-x: auto;
+}
+
+/* -------- Inline Monospace -------- */
+
+.inline-code {
+  font-family: ui-monospace, SFMono-Regular,
+               Menlo, Monaco, Consolas,
+               monospace;
+  background: #f1f5f9;
+  padding: 2px 6px;
+  border-radius: 4px;
+  font-size: 0.95em;
+}
+
+/* -------- Subtle Section Divider -------- */
+
+.divider {
+  border-top: 1px solid #e2e8f0;
+  margin: 48px 0;
+}
+
+/* -------- Footer -------- */
+
 .footer {
   margin-top: 120px;
   font-size: 14px;
