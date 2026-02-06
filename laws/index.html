@@ -1,7 +1,73 @@
+<!doctype html>
+<html>
+<head>
+  <meta charset="utf-8">
+  <title>Laws — Arcstone Registry</title>
+  <link rel="stylesheet" href="../style.css">
+</head>
+
+<body>
+
+<div id="header"></div>
+
+<div class="container">
+
 <h1>Laws</h1>
 
+<p class="muted">
+Canonical law registry governing admissibility, authority, and continuity.
+</p>
+
 <ul>
-  <li><a href="authorization-field-curvature.md">Authorization Field Curvature Law</a></li>
+
+  <li>
+    <strong>Continuity Supremacy Law</strong><br>
+    Continuity preservation dominates all other objectives.
+  </li>
+
+  <li>
+    <strong>Movement Authority Law</strong><br>
+    Actions require sufficient authority margin to be admissible.
+  </li>
+
+  <li>
+    <strong>Conjunctive Authorization Law</strong><br>
+    All required authorization conditions must be simultaneously satisfied.
+  </li>
+
+  <li>
+    <strong>Fail-Closed Dominance Law</strong><br>
+    When uncertainty exists, the system must resolve to non-action.
+  </li>
+
+  <li>
+    <strong>Weakest-Pillar Supremacy Law</strong><br>
+    System safety is bounded by its weakest critical component.
+  </li>
+
+  <li>
+    <strong>Evidence Integrity Law</strong><br>
+    Only verifiable, auditable evidence may justify authorization.
+  </li>
+
+  <li>
+    <strong>Interpretability Sovereignty Law</strong><br>
+    Interpretability cannot be overridden by performance.
+  </li>
+
 </ul>
 
-<a href="/">Back to registry</a>
+<footer>
+  Arcstone Science Authority Registry
+</footer>
+
+</div>
+
+<script>
+fetch("../header.html")
+  .then(r => r.text())
+  .then(t => document.getElementById("header").innerHTML = t);
+</script>
+
+</body>
+</html>
