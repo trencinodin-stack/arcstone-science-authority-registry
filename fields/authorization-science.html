@@ -1,0 +1,46 @@
+<!doctype html>
+<html>
+<head>
+  <meta charset="utf-8">
+  <title>Authorization Science</title>
+  <link rel="stylesheet" href="/style.css">
+</head>
+
+<body>
+
+<div id="header"></div>
+<script>
+fetch("/header.html")
+  .then(r => r.text())
+  .then(t => document.getElementById("header").innerHTML = t);
+</script>
+
+<div class="breadcrumbs">
+  <a href="/">Registry</a> /
+  <a href="/fields/">Fields</a> /
+  Authorization Science
+</div>
+
+<hr class="divider">
+
+<h1>Authorization Science</h1>
+
+<p>
+Study of conditions under which actions become legally admissible in a system.
+</p>
+
+<h2>Core Concerns</h2>
+
+<ul>
+  <li>Admissibility theory</li>
+  <li>Permission geometry</li>
+  <li>Fail-closed systems</li>
+  <li>Certificate-based legitimacy</li>
+</ul>
+
+<hr class="divider">
+
+<a href="/fields/">Back to Fields</a>
+
+</body>
+</html>
