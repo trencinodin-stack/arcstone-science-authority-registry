@@ -30,21 +30,21 @@ hr {
   margin: 32px 0;
 }
 
-/* -------- Top Navigation -------- */
+/* -------- Header / Top Nav -------- */
 
-.nav {
+.header {
   display: flex;
   gap: 28px;
   font-size: 15px;
-  margin-bottom: 32px;
+  margin-bottom: 40px;
 }
 
-.nav a {
+.header a {
   color: #0f172a;
   font-weight: 500;
 }
 
-.nav a:hover {
+.header a:hover {
   color: #2563eb;
   text-decoration: none;
 }
