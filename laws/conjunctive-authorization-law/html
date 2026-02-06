@@ -1,0 +1,25 @@
+<h1>Conjunctive Authorization Law</h1>
+
+<p class="muted">
+Law · LAW-CAL-001
+</p>
+
+<p>
+All required authorization conditions must be simultaneously satisfied.
+</p>
+
+<p>
+Scope: Global
+</p>
+
+<h2>Statement</h2>
+
+<p>
+No single authorization condition is sufficient on its own.
+</p>
+
+<h2>Notes</h2>
+
+<p>
+Authorization is conjunctive, not disjunctive.
+</p>
