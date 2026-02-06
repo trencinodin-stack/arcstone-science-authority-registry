@@ -1,0 +1,63 @@
+<!doctype html>
+<html>
+<head>
+  <meta charset="utf-8">
+  <title>How to Cite — Arcstone Registry</title>
+  <link rel="stylesheet" href="../style.css">
+</head>
+
+<body>
+
+<div id="header"></div>
+
+<div class="container">
+
+<h1>How to Cite This Registry</h1>
+
+<p class="muted">
+Citation guidance for academic, technical, and institutional use.
+</p>
+
+<h2>General Citation</h2>
+
+<pre>
+Arcstone Adaptive Science Systems, Inc.
+Arcstone Science Authority Registry.
+https://trencinodin-stack.github.io/arcstone-science-authority-registry/
+</pre>
+
+<h2>Specific Entry Citation</h2>
+
+<pre>
+Arcstone Adaptive Science Systems, Inc.
+"Continuity Supremacy Law."
+Arcstone Science Authority Registry.
+https://trencinodin-stack.github.io/arcstone-science-authority-registry/laws/
+</pre>
+
+<h2>Versioning</h2>
+
+<p>
+When available, include version tags or commit hashes.
+</p>
+
+<h2>Authorship</h2>
+
+<p>
+Registry curated and maintained by Arcstone Adaptive Science Systems, Inc.
+</p>
+
+<footer>
+  Arcstone Science Authority Registry
+</footer>
+
+</div>
+
+<script>
+fetch("../header.html")
+  .then(r => r.text())
+  .then(t => document.getElementById("header").innerHTML = t);
+</script>
+
+</body>
+</html>
