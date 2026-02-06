@@ -1,23 +1,39 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <meta charset="UTF-8">
+  <title>Arcstone Science Authority Registry</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+
 <body>
 
-<!-- Shared Header -->
 <div id="header"></div>
+
+<div class="container">
+
+<h1>Arcstone Science Authority Registry</h1>
+
+<p class="muted">
+Public existence registry of fields, domains, laws, kernels,
+and mathematical primitives.
+</p>
+
+<p>
+Arcstone Adaptive Science Systems, Inc.
+</p>
+
+<footer>
+  Arcstone Science Authority Registry — Canonical Public Index
+</footer>
+
+</div>
+
 <script>
-fetch("/header.html")
+fetch("header.html")
   .then(r => r.text())
   .then(t => document.getElementById("header").innerHTML = t);
 </script>
 
-<h1>Arcstone Science Authority Registry</h1>
-
-<p>
-Public existence registry of fields, domains, laws, kernels, and mathematical primitives.
-</p>
-
-<hr>
-
-<div class="footer">
-Arcstone Adaptive Science Systems, Inc.
-</div>
-
 </body>
+</html>
