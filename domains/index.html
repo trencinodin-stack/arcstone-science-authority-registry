@@ -1,8 +1,47 @@
+<!doctype html>
+<html>
+<head>
+  <meta charset="utf-8">
+  <title>Domains — Arcstone Registry</title>
+  <link rel="stylesheet" href="/style.css">
+</head>
+
+<body>
+
+<!-- Shared Header -->
+<div id="header"></div>
+<script>
+fetch("/header.html")
+  .then(r => r.text())
+  .then(t => document.getElementById("header").innerHTML = t);
+</script>
+
+<!-- Breadcrumbs -->
+<div class="breadcrumbs">
+  <a href="/">Registry</a> / Domains
+</div>
+
+<hr class="divider">
+
 <h1>Domains</h1>
 
+<p>
+Primary scientific domains within Authorization-Centric and Continuity-Governed science.
+</p>
+
 <ul>
-  <li><a href="authorization-science.md">Authorization Science</a></li>
-  <li><a href="continuity-science.md">Continuity Science</a></li>
+  <li>
+    <a href="authorization-science.html">Authorization Science</a>
+  </li>
+
+  <li>
+    <a href="continuity-science.html">Continuity Science</a>
+  </li>
 </ul>
 
-<a href="/">Back to registry</a>
+<div class="footer">
+Arcstone Adaptive Science Systems, Inc.
+</div>
+
+</body>
+</html>
