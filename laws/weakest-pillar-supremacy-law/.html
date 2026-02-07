@@ -1,45 +1,38 @@
-<!doctype html>
-<html>
+<!DOCTYPE html>
+<html lang="en">
 <head>
-  <meta charset="utf-8">
-  <title>Weakest-Pillar Supremacy Law — Arcstone Registry</title>
-  <link rel="stylesheet" href="../../style.css">
+  <meta charset="UTF-8">
+  <title>Weakest-Pillar Supremacy Law | Arcstone Science Authority Registry</title>
+  <meta name="viewport" content="width=device-width, initial-scale=1">
 </head>
-
 <body>
 
-<div id="header"></div>
+<nav>
+  <a href="/">Registry</a>
+  <a href="/fields/">Fields</a>
+  <a href="/domains/">Domains</a>
+  <a href="/laws/">Laws</a>
+  <a href="/mathematical-primitives/">Mathematical Primitives</a>
+  <a href="/kernels/">Kernels</a>
+</nav>
 
-<div class="container">
+<main>
+  <h1>Weakest-Pillar Supremacy Law</h1>
 
-<h1>Weakest-Pillar Supremacy Law</h1>
+  <h2>Law</h2>
+  <p>System safety is bounded by its weakest critical component.</p>
 
-<p class="muted">
-Law
-</p>
-
-<p>
-System safety is bounded by its weakest critical component.
-</p>
-
-<h2>Statement</h2>
-
-<p>
-Overall system safety cannot exceed the safety of its weakest critical
-component.
-</p>
+  <h2>Statement</h2>
+  <p>
+    No system may claim safety, robustness, or authorization exceeding that
+    of its least reliable required component. Strength elsewhere does not
+    compensate for a critical weakness.
+  </p>
+</main>
 
 <footer>
-  Arcstone Science Authority Registry
+  <p>Arcstone Science Authority Registry</p>
 </footer>
-
-</div>
-
-<script>
-fetch("../../header.html")
-  .then(r => r.text())
-  .then(t => document.getElementById("header").innerHTML = t);
-</script>
 
 </body>
 </html>
