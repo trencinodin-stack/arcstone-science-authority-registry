@@ -1,22 +1,55 @@
-<h1>Judgment Lattice</h1>
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <title>Judgment Lattice — Arcstone Registry</title>
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <link rel="stylesheet" href="../../style.css">
+</head>
 
-<p class="muted">Mathematical Primitive</p>
+<body>
 
-<p>
-A partially ordered set of decision outcomes.
-</p>
+<div id="header"></div>
 
-<h2>Role</h2>
-<p>
-Judgment lattices encode dominance relationships between outcomes such as
-permit, restrict, freeze, or deny.
-</p>
+<div class="container">
 
-<h2>Appears In</h2>
-<ul>
-  <li>Authorization Science</li>
-  <li>Continuity Governance</li>
-</ul>
+  <h1>Judgment Lattice</h1>
 
-<p class="muted">Canonical mathematical primitive entry.</p>
+  <p class="muted">
+    Mathematical Primitive
+  </p>
 
+  <p>
+    A partially ordered set of decision outcomes.
+  </p>
+
+  <h2>Role</h2>
+  <p>
+    Judgment lattices structure evaluative outcomes such as admissible,
+    forbidden, uncertain, or terminal states.
+  </p>
+
+  <h2>Appears In</h2>
+  <ul>
+    <li><a href="/fields/authorization-science/">Authorization Science</a></li>
+    <li><a href="/fields/constitutional-mathematics/">Constitutional Mathematics</a></li>
+  </ul>
+
+  <p class="muted">
+    Canonical mathematical primitive entry.
+  </p>
+
+  <footer>
+    Arcstone Science Authority Registry
+  </footer>
+
+</div>
+
+<script>
+fetch("../../header.html")
+  .then(r => r.text())
+  .then(t => document.getElementById("header").innerHTML = t);
+</script>
+
+</body>
+</html>
