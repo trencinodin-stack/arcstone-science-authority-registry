@@ -1,46 +1,46 @@
-<!DOCTYPE html>
-<html lang="en">
+<!doctype html>
+<html>
 <head>
-  <meta charset="UTF-8">
-  <title>Interpretability Sovereignty Law | Arcstone Science Authority Registry</title>
-  <meta name="viewport" content="width=device-width, initial-scale=1">
-  <link rel="stylesheet" href="/styles.css">
+  <meta charset="utf-8">
+  <title>Interpretability Sovereignty Law — Arcstone Registry</title>
+  <link rel="stylesheet" href="../../style.css">
 </head>
 
 <body>
 
-<nav class="nav">
-  <a href="/">Registry</a>
-  <a href="/fields/">Fields</a>
-  <a href="/domains/">Domains</a>
-  <a href="/laws/">Laws</a>
-  <a href="/mathematical-primitives/">Mathematical Primitives</a>
-  <a href="/kernels/">Kernels</a>
-</nav>
+<div id="header"></div>
 
-<main class="content">
+<div class="container">
 
-  <h1>Interpretability Sovereignty Law</h1>
+<h1>Interpretability Sovereignty Law</h1>
 
-  <section>
-    <h2>Law</h2>
-    <p>Interpretability has veto power over performance.</p>
-  </section>
+<p class="muted">
+Law
+</p>
 
-  <section>
-    <h2>Statement</h2>
-    <p>
-      No gain in performance, capability, or utility may override the
-      requirement for interpretability in authorized systems. If behavior
-      cannot be meaningfully interpreted, authorization is invalid.
-    </p>
-  </section>
+<p>
+Interpretability cannot be overridden by performance.
+</p>
 
-</main>
+<h2>Statement</h2>
 
-<footer class="footer">
-  <p>Arcstone Science Authority Registry</p>
+<p>
+No gain in efficiency, accuracy, or capability may justify loss of
+interpretability. Actions that cannot be meaningfully interpreted are
+inadmissible.
+</p>
+
+<footer>
+  Arcstone Science Authority Registry
 </footer>
+
+</div>
+
+<script>
+fetch("../../header.html")
+  .then(r => r.text())
+  .then(t => document.getElementById("header").innerHTML = t);
+</script>
 
 </body>
 </html>
