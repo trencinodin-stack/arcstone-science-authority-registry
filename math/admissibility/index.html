@@ -1,22 +1,55 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <title>Admissibility — Arcstone Registry</title>
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <link rel="stylesheet" href="../../style.css">
+</head>
 
-<h1>Admissibility</h1>
+<body>
 
-<p class="muted">Mathematical Primitive</p>
+<div id="header"></div>
 
-<p>
-A predicate determining whether a state, transition, or action is allowed.
-</p>
+<div class="container">
 
-<h2>Role</h2>
-<p>
-Admissibility separates permission from desirability by establishing whether
-an action may occur at all.
-</p>
+  <h1>Admissibility</h1>
 
-<h2>Appears In</h2>
-<ul>
-  <li>Authorization Science</li>
-  <li>Authorization-First Governance</li>
-</ul>
+  <p class="muted">
+    Mathematical Primitive
+  </p>
 
-<p class="muted">Canonical mathematical primitive entry.</p>
+  <p>
+    A predicate determining whether a state, action, or transition is allowed.
+  </p>
+
+  <h2>Role</h2>
+  <p>
+    Admissibility governs permission by evaluating actions against governing constraints,
+    authority conditions, and irreversibility thresholds.
+  </p>
+
+  <h2>Appears In</h2>
+  <ul>
+    <li><a href="/fields/authorization-science/">Authorization Science</a></li>
+    <li><a href="/fields/constitutional-mathematics/">Constitutional Mathematics</a></li>
+  </ul>
+
+  <p class="muted">
+    Canonical mathematical primitive entry.
+  </p>
+
+  <footer>
+    Arcstone Science Authority Registry
+  </footer>
+
+</div>
+
+<script>
+fetch("../../header.html")
+  .then(r => r.text())
+  .then(t => document.getElementById("header").innerHTML = t);
+</script>
+
+</body>
+</html>
