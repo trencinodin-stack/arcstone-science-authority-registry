@@ -98,6 +98,12 @@ p {
   color: var(--text);
 }
 
+.muted {
+  color: var(--muted);
+  font-size: 0.95rem;
+  margin-bottom: 12px;
+}
+
 /* ---------- Law Sections ---------- */
 
 section {
@@ -133,7 +139,7 @@ footer {
   font-size: 0.9rem;
 }
 
-/* ---------- Lists ---------- */
+/* ---------- Lists (legacy / minimal use only) ---------- */
 
 ul {
   padding-left: 22px;
@@ -141,6 +147,29 @@ ul {
 
 li {
   margin-bottom: 10px;
+}
+
+/* ---------- Registry Index (Fields, Domains, etc.) ---------- */
+
+.registry-list {
+  max-width: 720px;
+  margin-top: 56px;
+}
+
+.registry-item {
+  margin-bottom: 32px;
+}
+
+.registry-title {
+  font-weight: 600;
+  font-size: 1.15rem;
+  margin-bottom: 4px;
+}
+
+.registry-desc {
+  color: var(--muted);
+  font-size: 1rem;
+  line-height: 1.5;
 }
 
 /* ---------- Responsive ---------- */
