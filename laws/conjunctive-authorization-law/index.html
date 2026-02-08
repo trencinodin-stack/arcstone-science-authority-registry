@@ -1,46 +1,46 @@
-<!DOCTYPE html>
-<html lang="en">
+<!doctype html>
+<html>
 <head>
-  <meta charset="UTF-8">
-  <title>Conjunctive Authorization Law | Arcstone Science Authority Registry</title>
-  <meta name="viewport" content="width=device-width, initial-scale=1">
-  <link rel="stylesheet" href="/styles.css">
+  <meta charset="utf-8">
+  <title>Conjunctive Authorization Law — Arcstone Registry</title>
+  <link rel="stylesheet" href="../../style.css">
 </head>
 
 <body>
 
-<nav class="nav">
-  <a href="/">Registry</a>
-  <a href="/fields/">Fields</a>
-  <a href="/domains/">Domains</a>
-  <a href="/laws/">Laws</a>
-  <a href="/mathematical-primitives/">Mathematical Primitives</a>
-  <a href="/kernels/">Kernels</a>
-</nav>
+<div id="header"></div>
 
-<main class="content">
+<div class="container">
 
-  <h1>Conjunctive Authorization Law</h1>
+<h1>Conjunctive Authorization Law</h1>
 
-  <section>
-    <h2>Law</h2>
-    <p>Authorization is conjunctive, not additive.</p>
-  </section>
+<p class="muted">
+Law
+</p>
 
-  <section>
-    <h2>Statement</h2>
-    <p>
-      An action is admissible only if all required authorization conditions
-      are simultaneously satisfied. Partial satisfaction, compensatory
-      trade-offs, or probabilistic justification are inadmissible.
-    </p>
-  </section>
+<p>
+Authorization is conjunctive, not additive.
+</p>
 
-</main>
+<h2>Statement</h2>
 
-<footer class="footer">
-  <p>Arcstone Science Authority Registry</p>
+<p>
+An action is admissible only if all required authorization conditions
+are simultaneously satisfied. Partial satisfaction, compensatory
+trade-offs, or probabilistic justification are inadmissible.
+</p>
+
+<footer>
+  Arcstone Science Authority Registry
 </footer>
+
+</div>
+
+<script>
+fetch("../../header.html")
+  .then(r => r.text())
+  .then(t => document.getElementById("header").innerHTML = t);
+</script>
 
 </body>
 </html>
