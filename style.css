@@ -104,7 +104,8 @@ p {
   margin-bottom: 12px;
 }
 
-/* ---------- Law Sections (detail pages only) ---------- */
+/* ---------- Law / Field Detail Sections ---------- */
+/* Used ONLY on detail pages */
 
 section {
   padding-left: 20px;
@@ -119,7 +120,7 @@ section h2 {
   margin-top: 0;
 }
 
-/* ---------- Global Links ---------- */
+/* ---------- Links ---------- */
 
 a {
   color: var(--link);
@@ -140,34 +141,30 @@ footer {
 }
 
 /* ---------- Index Lists (Laws, Fields, Domains) ---------- */
+/* These MUST look the same across sections */
 
-ul {
-  padding-left: 22px;
+.container > ul {
   max-width: 720px;
+  margin-top: 32px;
+  padding-left: 22px;
 }
 
-li {
-  margin-bottom: 16px;
+.container > ul > li {
+  margin-bottom: 22px;
 }
 
 /* clickable title line */
-ul li a {
+.container > ul > li > a {
   font-weight: 600;
   text-decoration: none;
 }
 
-/* match Laws hover behavior */
-ul li a:hover {
+/* hover affordance (same as Laws) */
+.container > ul > li > a:hover {
   text-decoration: underline;
 }
 
-/* keep descriptions visually subordinate */
-ul li br + text,
-ul li br + span {
-  color: var(--muted);
-}
-
-/* ---------- Registry Blocks (optional future use) ---------- */
+/* ---------- Registry Blocks (future-safe, unused for now) ---------- */
 
 .registry-list {
   max-width: 720px;
