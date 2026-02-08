@@ -1,21 +1,55 @@
-<h1>State</h1>
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <title>State — Arcstone Registry</title>
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <link rel="stylesheet" href="../../style.css">
+</head>
 
-<p class="muted">Mathematical Primitive</p>
+<body>
 
-<p>
-A complete description of a system at a given instant.
-</p>
+<div id="header"></div>
 
-<h2>Role</h2>
-<p>
-States provide the reference frame for evaluating admissibility, constraints,
-and allowable transitions.
-</p>
+<div class="container">
 
-<h2>Appears In</h2>
-<ul>
-  <li>Constitutional Mathematics</li>
-  <li>Continuity Science</li>
-</ul>
+  <h1>State</h1>
 
-<p class="muted">Canonical mathematical primitive entry.</p>
+  <p class="muted">
+    Mathematical Primitive
+  </p>
+
+  <p>
+    A complete description of a system at an instant.
+  </p>
+
+  <h2>Role</h2>
+  <p>
+    States define the admissible configuration space over which transitions,
+    constraints, and authority are evaluated.
+  </p>
+
+  <h2>Appears In</h2>
+  <ul>
+    <li><a href="/fields/constitutional-mathematics/">Constitutional Mathematics</a></li>
+    <li><a href="/fields/continuity-science/">Continuity Science</a></li>
+  </ul>
+
+  <p class="muted">
+    Canonical mathematical primitive entry.
+  </p>
+
+  <footer>
+    Arcstone Science Authority Registry
+  </footer>
+
+</div>
+
+<script>
+fetch("../../header.html")
+  .then(r => r.text())
+  .then(t => document.getElementById("header").innerHTML = t);
+</script>
+
+</body>
+</html>
