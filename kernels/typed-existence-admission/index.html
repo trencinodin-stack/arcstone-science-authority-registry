@@ -1,1 +1,52 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <title>Typed Existence-Admission Kernel — Arcstone Registry</title>
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <link rel="stylesheet" href="../../style.css">
+</head>
+
+<body>
+
+<div id="header"></div>
+
+<div class="container">
+
+  <h1>Typed Existence-Admission Kernel</h1>
+
+  <p class="muted">Kernel</p>
+
+  <p>
+    Determines whether an entity, state, or action is legally admissible to exist
+    within a governed system.
+  </p>
+
+  <h2>Function</h2>
+  <p>
+    This kernel evaluates admissibility predicates over typed states and transitions.
+    If admissibility fails, existence is denied regardless of utility, intent, or optimization.
+  </p>
+
+  <h2>Governs</h2>
+  <ul>
+    <li>Existence permission</li>
+    <li>State admission</li>
+    <li>Action eligibility</li>
+  </ul>
+
+  <p class="muted">Canonical executable kernel entry.</p>
+
+  <footer>Arcstone Science Authority Registry</footer>
+
+</div>
+
+<script>
+fetch("../../header.html")
+  .then(r => r.text())
+  .then(t => document.getElementById("header").innerHTML = t);
+</script>
+
+</body>
+</html>
 
