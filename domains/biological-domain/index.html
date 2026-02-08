@@ -1,0 +1,54 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <title>Biological Domain — Arcstone Registry</title>
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <link rel="stylesheet" href="../../style.css">
+</head>
+
+<body>
+
+<div id="header"></div>
+
+<div class="container">
+
+  <h1>Biological Domain</h1>
+
+  <p class="muted">Domain</p>
+
+  <p>
+    Domains governing biological states, transitions, constraints,
+    and survivability under irreversible conditions.
+  </p>
+
+  <h2>Scope</h2>
+  <ul>
+    <li>Biological state admissibility</li>
+    <li>Constitutional biological constraints</li>
+    <li>Recovery and failure boundaries</li>
+    <li>Non-optimizable safety limits</li>
+  </ul>
+
+  <h2>Related Fields</h2>
+  <ul>
+    <li><a href="/fields/biological-constitutional-systems/">Biological Constitutional Systems</a></li>
+    <li><a href="/fields/continuity-science/">Continuity Science</a></li>
+  </ul>
+
+  <p class="muted">Canonical domain entry.</p>
+
+  <footer>
+    Arcstone Science Authority Registry
+  </footer>
+
+</div>
+
+<script>
+fetch("../../header.html")
+  .then(r => r.text())
+  .then(t => document.getElementById("header").innerHTML = t);
+</script>
+
+</body>
+</html>
