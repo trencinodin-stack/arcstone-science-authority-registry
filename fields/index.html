@@ -1,50 +1,61 @@
+<!doctype html>
+<html>
+<head>
+  <meta charset="utf-8">
+  <title>Fields — Arcstone Registry</title>
+  <link rel="stylesheet" href="../style.css">
+</head>
+
+<body>
+
+<div id="header"></div>
+
+<div class="container">
+
 <h1>Fields</h1>
 
 <p>
 Canonical scientific field registry.
 </p>
 
-<div class="registry-list">
+<ul>
+  <li>
+    <strong>Authorization Science</strong><br>
+    Admissibility, permission, and action legality under irreversible risk.
+  </li>
 
-  <div class="registry-item">
-    <div class="registry-title">Authorization Science</div>
-    <div class="registry-desc">
-      Admissibility, permission, and action legality under irreversible risk.
-    </div>
-  </div>
+  <li>
+    <strong>Continuity Science</strong><br>
+    Survival, persistence, and existence stability of systems.
+  </li>
 
-  <div class="registry-item">
-    <div class="registry-title">Continuity Science</div>
-    <div class="registry-desc">
-      Survival, persistence, and existence stability of systems.
-    </div>
-  </div>
+  <li>
+    <strong>Authorization-Centric Substrate Science (ACSS)</strong><br>
+    Mathematical and physical foundations for permissioned existence.
+  </li>
 
-  <div class="registry-item">
-    <div class="registry-title">
-      Authorization-Centric Substrate Science (ACSS)
-    </div>
-    <div class="registry-desc">
-      Mathematical and physical foundations for permissioned existence.
-    </div>
-  </div>
+  <li>
+    <strong>Constitutional Mathematics</strong><br>
+    Lawful state, constraint, and proof-governed transition.
+  </li>
 
-  <div class="registry-item">
-    <div class="registry-title">Constitutional Mathematics</div>
-    <div class="registry-desc">
-      Lawful state, constraint, and proof-governed transition.
-    </div>
-  </div>
-
-  <div class="registry-item">
-    <div class="registry-title">Biological Constitutional Systems</div>
-    <div class="registry-desc">
-      Constitutional governance of biological states and actions.
-    </div>
-  </div>
-
-</div>
+  <li>
+    <strong>Biological Constitutional Systems</strong><br>
+    Constitutional governance of biological states and actions.
+  </li>
+</ul>
 
 <footer>
   Arcstone Science Authority Registry
 </footer>
+
+</div>
+
+<script>
+fetch("../header.html")
+  .then(r => r.text())
+  .then(t => document.getElementById("header").innerHTML = t);
+</script>
+
+</body>
+</html>
