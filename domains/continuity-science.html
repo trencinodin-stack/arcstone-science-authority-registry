@@ -1,54 +1,58 @@
 <!doctype html>
-<html>
+<html lang="en">
 <head>
   <meta charset="utf-8">
-  <title>Continuity Science – Domains</title>
-  <link rel="stylesheet" href="/style.css">
+  <title>Continuity Sciences — Arcstone Registry</title>
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <link rel="stylesheet" href="../../style.css">
 </head>
 
 <body>
 
-<!-- Shared Header -->
 <div id="header"></div>
+
+<div class="container">
+
+  <h1>Continuity Sciences</h1>
+
+  <p class="muted">
+    Domain
+  </p>
+
+  <p>
+    Domains concerned with survival, persistence, and long-horizon
+    existence stability of systems under irreversible risk.
+  </p>
+
+  <h2>Scope</h2>
+  <ul>
+    <li>Existence and survivability analysis</li>
+    <li>Collapse prevention and recovery regimes</li>
+    <li>Long-horizon system stability</li>
+    <li>Irreversibility-aware safety constraints</li>
+  </ul>
+
+  <h2>Related Fields</h2>
+  <ul>
+    <li><a href="/fields/continuity-science/">Continuity Science</a></li>
+    <li><a href="/fields/authorization-science/">Authorization Science</a></li>
+  </ul>
+
+  <p class="muted">
+    Canonical domain entry.
+  </p>
+
+  <footer>
+    Arcstone Science Authority Registry
+  </footer>
+
+</div>
+
 <script>
-fetch("/header.html")
+fetch("../../header.html")
   .then(r => r.text())
   .then(t => document.getElementById("header").innerHTML = t);
 </script>
-
-<!-- Breadcrumbs -->
-<div class="breadcrumbs">
-  <a href="/">Registry</a> /
-  <a href="/domains/">Domains</a> /
-  Continuity Science
-</div>
-
-<hr class="divider">
-
-<h1>Continuity Science</h1>
-
-<p>
-This document enumerates primary domains within the field of Continuity Science.
-</p>
-
-<h2>Irreversibility Regimes</h2>
-<p>Study of state transitions that cannot be undone.</p>
-
-<h2>Collapse Taxonomy</h2>
-<p>Study of distinct classes of system collapse.</p>
-
-<h2>Recovery Semantics</h2>
-<p>Study of how systems regain viable state after collapse.</p>
-
-<h2>Identity Persistence</h2>
-<p>Study of what makes a system remain itself across change.</p>
-
-<h2>Continuity Measurement</h2>
-<p>Study of quantitative signals indicating continuity or degradation.</p>
-
-<hr class="divider">
-
-<a href="/domains/">Back to Domains</a>
 
 </body>
 </html>
