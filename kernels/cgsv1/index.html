@@ -1,0 +1,77 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <title>CGSV1 Kernel — Arcstone Registry</title>
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <link rel="stylesheet" href="../../style.css">
+</head>
+
+<body>
+
+<div id="header"></div>
+
+<div class="container">
+
+  <h1>CGSV1 Kernel</h1>
+
+  <p class="muted">
+    Kernel
+  </p>
+
+  <p>
+    Evaluates governance state validity and safety posture.
+  </p>
+
+  <h2>Role</h2>
+  <p>
+    Computes the authoritative governance state used by all downstream
+    authorization and execution kernels. CGSV1 determines whether the
+    system is operating within a valid, safe, and continuity-preserving
+    governance regime.
+  </p>
+
+  <h2>Inputs</h2>
+  <ul>
+    <li>System state</li>
+    <li>Evidence objects</li>
+    <li>Active constraints</li>
+  </ul>
+
+  <h2>Outputs</h2>
+  <ul>
+    <li>VALID</li>
+    <li>WARNING</li>
+    <li>INVALID</li>
+  </ul>
+
+  <h2>Enforced Laws</h2>
+  <ul>
+    <li><a href="/laws/governance-state-validity/">Governance State Validity Law</a></li>
+    <li><a href="/laws/evidence-integrity/">Evidence Integrity Law</a></li>
+  </ul>
+
+  <h2>Failure Modes</h2>
+  <ul>
+    <li>Governance invalidation</li>
+    <li>Downstream authorization freeze</li>
+  </ul>
+
+  <p class="muted">
+    Canonical executable kernel entry.
+  </p>
+
+  <footer>
+    Arcstone Science Authority Registry
+  </footer>
+
+</div>
+
+<script>
+fetch("../../header.html")
+  .then(r => r.text())
+  .then(t => document.getElementById("header").innerHTML = t);
+</script>
+
+</body>
+</html>
