@@ -1,46 +1,45 @@
-<!DOCTYPE html>
-<html lang="en">
+<!doctype html>
+<html>
 <head>
-  <meta charset="UTF-8">
-  <title>Weakest-Pillar Supremacy Law | Arcstone Science Authority Registry</title>
-  <meta name="viewport" content="width=device-width, initial-scale=1">
-  <link rel="stylesheet" href="/styles.css">
+  <meta charset="utf-8">
+  <title>Weakest-Pillar Supremacy Law — Arcstone Registry</title>
+  <link rel="stylesheet" href="../../style.css">
 </head>
 
 <body>
 
-<nav class="nav">
-  <a href="/">Registry</a>
-  <a href="/fields/">Fields</a>
-  <a href="/domains/">Domains</a>
-  <a href="/laws/">Laws</a>
-  <a href="/mathematical-primitives/">Mathematical Primitives</a>
-  <a href="/kernels/">Kernels</a>
-</nav>
+<div id="header"></div>
 
-<main class="content">
+<div class="container">
 
-  <h1>Weakest-Pillar Supremacy Law</h1>
+<h1>Weakest-Pillar Supremacy Law</h1>
 
-  <section>
-    <h2>Law</h2>
-    <p>System safety is bounded by its weakest critical component.</p>
-  </section>
+<p class="muted">
+Law
+</p>
 
-  <section>
-    <h2>Statement</h2>
-    <p>
-      No system may claim safety, robustness, or authorization exceeding that
-      of its least reliable required component. Strength elsewhere does not
-      compensate for a critical weakness.
-    </p>
-  </section>
+<p>
+System safety is bounded by its weakest critical component.
+</p>
 
-</main>
+<h2>Statement</h2>
 
-<footer class="footer">
-  <p>Arcstone Science Authority Registry</p>
+<p>
+Authorization is constrained by the minimum integrity across all required
+components. No subsystem may compensate for another’s deficiency.
+</p>
+
+<footer>
+  Arcstone Science Authority Registry
 </footer>
+
+</div>
+
+<script>
+fetch("../../header.html")
+  .then(r => r.text())
+  .then(t => document.getElementById("header").innerHTML = t);
+</script>
 
 </body>
 </html>
