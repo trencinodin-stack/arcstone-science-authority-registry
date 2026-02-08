@@ -1,22 +1,55 @@
-<h1>Certificate</h1>
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <title>Certificate — Arcstone Registry</title>
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <link rel="stylesheet" href="../../style.css">
+</head>
 
-<p class="muted">Mathematical Primitive</p>
+<body>
 
-<p>
-A signed proof object granting permission under specified conditions.
-</p>
+<div id="header"></div>
 
-<h2>Role</h2>
-<p>
-Certificates operationalize admissibility by binding authorization to a
-verifiable artifact.
-</p>
+<div class="container">
 
-<h2>Appears In</h2>
-<ul>
-  <li>Authorization Science</li>
-  <li>Authorization-First Governance</li>
-</ul>
+  <h1>Certificate</h1>
 
-<p class="muted">Canonical mathematical primitive entry.</p>
+  <p class="muted">
+    Mathematical Primitive
+  </p>
 
+  <p>
+    A signed proof object granting permission.
+  </p>
+
+  <h2>Role</h2>
+  <p>
+    Certificates operationalize authorization by binding proof,
+    authority, and scope into a verifiable permission artifact.
+  </p>
+
+  <h2>Appears In</h2>
+  <ul>
+    <li><a href="/fields/authorization-science/">Authorization Science</a></li>
+    <li><a href="/fields/constitutional-mathematics/">Constitutional Mathematics</a></li>
+  </ul>
+
+  <p class="muted">
+    Canonical mathematical primitive entry.
+  </p>
+
+  <footer>
+    Arcstone Science Authority Registry
+  </footer>
+
+</div>
+
+<script>
+fetch("../../header.html")
+  .then(r => r.text())
+  .then(t => document.getElementById("header").innerHTML = t);
+</script>
+
+</body>
+</html>
