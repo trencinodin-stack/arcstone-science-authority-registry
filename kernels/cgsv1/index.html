@@ -15,55 +15,29 @@
 
   <h1>CGSV1 Kernel</h1>
 
-  <p class="muted">
-    Kernel
-  </p>
+  <p class="muted">Kernel</p>
 
   <p>
-    Evaluates governance state validity and safety posture.
+    Evaluates governance state validity and systemic safety posture.
   </p>
 
-  <h2>Role</h2>
+  <h2>Function</h2>
   <p>
-    Computes the authoritative governance state used by all downstream
-    authorization and execution kernels. CGSV1 determines whether the
-    system is operating within a valid, safe, and continuity-preserving
-    governance regime.
+    CGSV1 computes whether a system is operating within a valid governance state.
+    It detects drift, unsafe escalation, and invalid authority conditions.
   </p>
-
-  <h2>Inputs</h2>
-  <ul>
-    <li>System state</li>
-    <li>Evidence objects</li>
-    <li>Active constraints</li>
-  </ul>
 
   <h2>Outputs</h2>
   <ul>
-    <li>VALID</li>
-    <li>WARNING</li>
-    <li>INVALID</li>
+    <li>Valid</li>
+    <li>Degraded</li>
+    <li>Invalid</li>
+    <li>Freeze</li>
   </ul>
 
-  <h2>Enforced Laws</h2>
-  <ul>
-    <li><a href="/laws/governance-state-validity/">Governance State Validity Law</a></li>
-    <li><a href="/laws/evidence-integrity/">Evidence Integrity Law</a></li>
-  </ul>
+  <p class="muted">Canonical executable kernel entry.</p>
 
-  <h2>Failure Modes</h2>
-  <ul>
-    <li>Governance invalidation</li>
-    <li>Downstream authorization freeze</li>
-  </ul>
-
-  <p class="muted">
-    Canonical executable kernel entry.
-  </p>
-
-  <footer>
-    Arcstone Science Authority Registry
-  </footer>
+  <footer>Arcstone Science Authority Registry</footer>
 
 </div>
 
