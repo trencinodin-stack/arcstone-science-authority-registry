@@ -2,47 +2,52 @@
 <html>
 <head>
   <meta charset="utf-8">
-  <title>Biological Constitutional Systems</title>
-  <link rel="stylesheet" href="/style.css">
+  <title>Biological Constitutional Systems — Arcstone Registry</title>
+  <link rel="stylesheet" href="../../style.css">
 </head>
 
 <body>
 
-<!-- Shared Header -->
 <div id="header"></div>
-<script>
-fetch("/header.html")
-  .then(r => r.text())
-  .then(t => document.getElementById("header").innerHTML = t);
-</script>
 
-<!-- Breadcrumbs -->
-<div class="breadcrumbs">
-  <a href="/">Registry</a> /
-  <a href="/fields/">Fields</a> /
-  Biological Constitutional Systems
-</div>
-
-<hr class="divider">
+<div class="container">
 
 <h1>Biological Constitutional Systems</h1>
 
 <p>
-Study of living systems governed by internal constitutional constraints on state, action, and persistence.
+Study of constitutional constraints governing biological states and actions.
 </p>
 
 <h2>Core Concerns</h2>
 
 <ul>
-  <li>Biological admissibility conditions</li>
-  <li>Failure and collapse modes of organisms</li>
-  <li>Recovery and regeneration regimes</li>
-  <li>Identity persistence in living systems</li>
+  <li>Admissibility of biological states</li>
+  <li>Constraint-governed biological transitions</li>
+  <li>Fail-closed biological safety boundaries</li>
+  <li>Irreversible biological risk</li>
+  <li>Separation of governance from diagnosis</li>
 </ul>
 
-<hr class="divider">
+<h2>Scope</h2>
 
-<a href="/fields/">Back to Fields</a>
+<p>
+Biological Constitutional Systems concern the governance of what biological
+states and interventions are permitted to occur, independent of clinical
+interpretation or therapeutic intent. The field prioritizes safety, legality,
+and irreversibility constraints over optimization or outcome prediction.
+</p>
+
+<footer>
+  Arcstone Science Authority Registry
+</footer>
+
+</div>
+
+<script>
+fetch("../../header.html")
+  .then(r => r.text())
+  .then(t => document.getElementById("header").innerHTML = t);
+</script>
 
 </body>
 </html>
