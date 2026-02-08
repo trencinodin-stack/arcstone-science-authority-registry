@@ -2,44 +2,53 @@
 <html>
 <head>
   <meta charset="utf-8">
-  <title>Authorization-Centric Substrate Science</title>
-  <link rel="stylesheet" href="/style.css">
+  <title>Authorization-Centric Substrate Science — Arcstone Registry</title>
+  <link rel="stylesheet" href="../../style.css">
 </head>
 
 <body>
 
 <div id="header"></div>
-<script>
-fetch("/header.html")
-  .then(r => r.text())
-  .then(t => document.getElementById("header").innerHTML = t);
-</script>
 
-<div class="breadcrumbs">
-  <a href="/">Registry</a> /
-  <a href="/fields/">Fields</a> /
-  Authorization-Centric Substrate Science
-</div>
+<div class="container">
 
-<hr class="divider">
-
-<h1>Authorization-Centric Substrate Science</h1>
+<h1>Authorization-Centric Substrate Science (ACSS)</h1>
 
 <p>
-Study of reality modeled as a permissioned substrate where existence itself is gated.
+Study of mathematical and physical substrates in which existence is conditional
+on authorization.
 </p>
 
 <h2>Core Concerns</h2>
 
 <ul>
-  <li>Permissioned existence</li>
-  <li>Substrate-level admissibility</li>
-  <li>Existence gating mechanics</li>
+  <li>Substrate-level admissibility constraints</li>
+  <li>Permission as a physical and mathematical property</li>
+  <li>Existence conditional on lawful state space</li>
+  <li>Non-executable states and transitions</li>
+  <li>Fail-closed substrate architectures</li>
 </ul>
 
-<hr class="divider">
+<h2>Scope</h2>
 
-<a href="/fields/">Back to Fields</a>
+<p>
+Authorization-Centric Substrate Science concerns the foundations beneath systems,
+where authorization is not a policy choice but a structural condition. It
+examines substrates in which states, transitions, or entities cannot exist
+unless permitted by underlying mathematical or physical constraints.
+</p>
+
+<footer>
+  Arcstone Science Authority Registry
+</footer>
+
+</div>
+
+<script>
+fetch("../../header.html")
+  .then(r => r.text())
+  .then(t => document.getElementById("header").innerHTML = t);
+</script>
 
 </body>
 </html>
