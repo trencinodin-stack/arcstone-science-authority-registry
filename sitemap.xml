@@ -1,1 +1,28 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
 
+  <url>
+    <loc>https://arcstone.org/</loc>
+  </url>
+
+  <url>
+    <loc>https://arcstone.org/fields/</loc>
+  </url>
+
+  <url>
+    <loc>https://arcstone.org/domains/</loc>
+  </url>
+
+  <url>
+    <loc>https://arcstone.org/laws/</loc>
+  </url>
+
+  <url>
+    <loc>https://arcstone.org/math/</loc>
+  </url>
+
+  <url>
+    <loc>https://arcstone.org/kernels/</loc>
+  </url>
+
+</urlset>
