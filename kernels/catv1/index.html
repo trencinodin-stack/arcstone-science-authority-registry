@@ -1,1 +1,51 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <title>CATV1 Kernel — Arcstone Registry</title>
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <link rel="stylesheet" href="../../style.css">
+</head>
+
+<body>
+
+<div id="header"></div>
+
+<div class="container">
+
+  <h1>CATV1 Kernel</h1>
+
+  <p class="muted">Kernel</p>
+
+  <p>
+    Enforces authorization law at runtime.
+  </p>
+
+  <h2>Function</h2>
+  <p>
+    CATV1 determines whether a proposed action is authorized under current
+    admissibility, continuity, and authority constraints.
+  </p>
+
+  <h2>Enforcement</h2>
+  <ul>
+    <li>Authorize</li>
+    <li>Deny</li>
+    <li>Freeze</li>
+  </ul>
+
+  <p class="muted">Canonical executable kernel entry.</p>
+
+  <footer>Arcstone Science Authority Registry</footer>
+
+</div>
+
+<script>
+fetch("../../header.html")
+  .then(r => r.text())
+  .then(t => document.getElementById("header").innerHTML = t);
+</script>
+
+</body>
+</html>
 
