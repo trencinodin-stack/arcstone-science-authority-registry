@@ -1,22 +1,55 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <title>Constraint — Arcstone Registry</title>
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <link rel="stylesheet" href="../../style.css">
+</head>
 
-<h1>Constraint</h1>
+<body>
 
-<p class="muted">Mathematical Primitive</p>
+<div id="header"></div>
 
-<p>
-A restriction defining allowed states, transitions, or actions within a system.
-</p>
+<div class="container">
 
-<h2>Role</h2>
-<p>
-Constraints bound system behavior by excluding inadmissible states or transitions,
-independent of optimization or utility.
-</p>
+  <h1>Constraint</h1>
 
-<h2>Appears In</h2>
-<ul>
-  <li>Constitutional Mathematics</li>
-  <li>Authorization Science</li>
-</ul>
+  <p class="muted">
+    Mathematical Primitive
+  </p>
 
-<p class="muted">Canonical mathematical primitive entry.</p>
+  <p>
+    A restriction defining allowed states, transitions, or actions within a system.
+  </p>
+
+  <h2>Role</h2>
+  <p>
+    Constraints bound system behavior by excluding inadmissible states or transitions,
+    independent of optimization, utility, or performance.
+  </p>
+
+  <h2>Appears In</h2>
+  <ul>
+    <li><a href="/fields/constitutional-mathematics/">Constitutional Mathematics</a></li>
+    <li><a href="/fields/authorization-science/">Authorization Science</a></li>
+  </ul>
+
+  <p class="muted">
+    Canonical mathematical primitive entry.
+  </p>
+
+  <footer>
+    Arcstone Science Authority Registry
+  </footer>
+
+</div>
+
+<script>
+fetch("../../header.html")
+  .then(r => r.text())
+  .then(t => document.getElementById("header").innerHTML = t);
+</script>
+
+</body>
+</html>
