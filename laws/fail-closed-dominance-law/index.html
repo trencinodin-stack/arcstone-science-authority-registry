@@ -1,46 +1,45 @@
-<!DOCTYPE html>
-<html lang="en">
+<!doctype html>
+<html>
 <head>
-  <meta charset="UTF-8">
-  <title>Fail-Closed Dominance Law | Arcstone Science Authority Registry</title>
-  <meta name="viewport" content="width=device-width, initial-scale=1">
-  <link rel="stylesheet" href="/styles.css">
+  <meta charset="utf-8">
+  <title>Fail-Closed Dominance Law — Arcstone Registry</title>
+  <link rel="stylesheet" href="../../style.css">
 </head>
 
 <body>
 
-<nav class="nav">
-  <a href="/">Registry</a>
-  <a href="/fields/">Fields</a>
-  <a href="/domains/">Domains</a>
-  <a href="/laws/">Laws</a>
-  <a href="/mathematical-primitives/">Mathematical Primitives</a>
-  <a href="/kernels/">Kernels</a>
-</nav>
+<div id="header"></div>
 
-<main class="content">
+<div class="container">
 
-  <h1>Fail-Closed Dominance Law</h1>
+<h1>Fail-Closed Dominance Law</h1>
 
-  <section>
-    <h2>Law</h2>
-    <p>Uncertainty resolves to non-action.</p>
-  </section>
+<p class="muted">
+Law
+</p>
 
-  <section>
-    <h2>Statement</h2>
-    <p>
-      If admissibility, authority, evidence, or continuity impact cannot be
-      conclusively established, the system must default to non-action until
-      resolution.
-    </p>
-  </section>
+<p>
+Uncertainty resolves to non-action.
+</p>
 
-</main>
+<h2>Statement</h2>
 
-<footer class="footer">
-  <p>Arcstone Science Authority Registry</p>
+<p>
+When authorization cannot be conclusively established, the system must
+default to refusal. Ambiguity may never justify execution.
+</p>
+
+<footer>
+  Arcstone Science Authority Registry
 </footer>
+
+</div>
+
+<script>
+fetch("../../header.html")
+  .then(r => r.text())
+  .then(t => document.getElementById("header").innerHTML = t);
+</script>
 
 </body>
 </html>
